@@ -21,7 +21,7 @@ jobs:
     - name: Terraform Plan
       run: terraform plan
 
-    - name: Terraform Plan
+    - name: Terraform Show
       run: terraform show
 
     - name: Terraform validation
