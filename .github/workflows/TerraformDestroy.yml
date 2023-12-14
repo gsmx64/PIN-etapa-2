@@ -14,4 +14,4 @@ jobs:
         run: terraform init -backend-config=backend.tf 
       - name: Terraform destroy
         id: destroy
-        run: terraform destroy --auto-approve
+        run: terraform destroy --auto-approve -vars 'region=us-east-1'
